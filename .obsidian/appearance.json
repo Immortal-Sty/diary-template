@@ -1,0 +1,15 @@
+{
+  "accentColor": "",
+  "theme": "obsidian",
+  "cssTheme": "Minimal",
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "标签美化",
+    "标题美化",
+    "进度条美化",
+    "嵌入美化",
+    "英文单词换行优化",
+    "Callout 扩展",
+    "Callout 美化"
+  ]
+}

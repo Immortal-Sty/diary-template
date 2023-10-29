@@ -1,0 +1,60 @@
+/* 進度條顏色依value變化 */
+progress[value^="1"]::-webkit-progress-value, 
+progress[value^="2"]::-webkit-progress-value,
+progress[value^="3"]::-webkit-progress-value {
+  background: var(--color-red) !important;
+  box-shadow: none;
+  border-color: transparent;
+  border-radius: 2px;
+}
+
+progress[value^="4"]::-webkit-progress-value,
+progress[value^="5"]::-webkit-progress-value {
+  background: var(--color-orange) !important;
+  box-shadow: none;
+  border-color: transparent;
+  border-radius: 2px;
+}
+
+progress[value^="6"]::-webkit-progress-value,
+progress[value^="7"]::-webkit-progress-value {
+  background: var(--color-yellow) !important;
+  box-shadow: none;
+  border-color: transparent;
+  border-radius: 2px;
+}
+
+progress[value^="8"]::-webkit-progress-value,
+progress[value^="9"]::-webkit-progress-value {
+  background: var(--color-green) !important;
+  box-shadow: none;
+  border-color: transparent;
+  border-radius: 2px;
+}
+
+progress[value="1"]::-webkit-progress-value, 
+progress[value="2"]::-webkit-progress-value,
+progress[value="3"]::-webkit-progress-value,
+progress[value="4"]::-webkit-progress-value,
+progress[value="5"]::-webkit-progress-value,
+progress[value="6"]::-webkit-progress-value,
+progress[value="7"]::-webkit-progress-value,
+progress[value="8"]::-webkit-progress-value,
+progress[value="9"]::-webkit-progress-value
+{
+  background: var(--color-red) !important;
+  box-shadow: none;
+  border-color: transparent;
+  border-radius: 2px;
+}
+
+progress[value="100"]::-webkit-progress-value {
+  background: var(--color-blue) !important;
+  box-shadow: none;
+  border-color: transparent;
+  border-radius: 2px;
+}
+
+.markdown-preview-view progress, .markdown-rendered progress, .markdown-source-view.is-live-preview progress {
+  height: 15px;
+}

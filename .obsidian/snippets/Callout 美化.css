@@ -1,0 +1,27 @@
+ /*
+ * @Author: cumany cuman@qq.com
+ * @Source: Pkmer.cn
+*/
+.callout {
+  border:none;
+  box-shadow: inset 0 0 0 2px rgba(var(--callout-color), 0.25), 0px 0.5px 1px 0.5px rgba(0, 0, 0, 0.1) /*!important*/;
+}
+ .callout .callout-title {
+  padding: 6px;
+  background-color: rgba(var(--callout-color), 0.4);
+}
+
+
+.callout .callout-content {
+  background-color: rgba(var(--callout-color), 0.1);
+}
+
+
+.callout {
+  padding: 0;
+  background-color:var(--admonition-bg-color);
+}
+
+.callout-content {
+  padding: 5px 15px;
+}

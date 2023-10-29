@@ -1,0 +1,13 @@
+{
+  "strictLineBreaks": true,
+  "propertiesInDocument": "source",
+  "showLineNumber": true,
+  "spellcheck": false,
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "newFileLocation": "current",
+  "newLinkFormat": "relative",
+  "attachmentFolderPath": "./attachments",
+  "showInlineTitle": false
+}
