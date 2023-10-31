@@ -1,0 +1,27 @@
+/*实时编辑*/
+.theme-light .markdown-source-view div.cm-line span.cm-highlight {
+	background-color:red;
+    color: white;
+	border-radius: 5px;
+	padding:2px;
+}
+.theme-dark .markdown-source-view div.cm-line span.cm-highlight {
+	background-color:#3464ff;
+    color:white;
+	padding:2px;
+	border-radius: 5px;
+}
+
+/*阅读模式*/
+.theme-light div p mark {
+	background-color:red;
+    color: white;
+	border-radius: 5px;
+	padding:2px;
+}
+.theme-dark div p mark {
+	background-color:#3464ff;
+    color: white;
+	border-radius: 5px;
+	padding:2px;
+}
